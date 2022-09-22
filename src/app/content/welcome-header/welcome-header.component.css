@@ -1,0 +1,55 @@
+
+.container2 {
+  position: relative;
+
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  height: 100vh;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width:100%;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+
+}
+
+.container2:hover .image {
+  opacity: 0.3;
+}
+
+.container2:hover .middle {
+  opacity: 0.1;
+  background-color: #8d3d7b;
+
+}
+
+.text {
+  background-color: #8d3d7b;
+  color: #fff;
+  font-size: 40px;
+  padding: 45px 62px;
+  border-radius: 25px;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-left: -23%;
+}
+span{
+  color:#ef07a8 ;
+}
+

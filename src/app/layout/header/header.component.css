@@ -1,0 +1,33 @@
+
+.navbar{
+  background: #8d3d7b !important;
+
+}
+.nav-link,.navbar-brand{
+  color: #fff !important;
+
+}
+.navbar-brand{
+  padding-left: 2%;
+  font-size: xx-large;
+}
+.nav-item{
+  font-size: larger;
+}
+.nav-item a{
+  font-size: larger;
+}
+.navbar-collapse{
+  margin-left: 50%;
+
+}
+span{
+  color:#ef07a8 ;
+}
+.nav-item:hover {
+	color: #ef07a8 !important;
+	border-bottom: 3px solid #ef07a8;
+
+
+
+}
