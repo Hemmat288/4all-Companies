@@ -14,7 +14,7 @@ export class CompaniesListComponent implements OnInit {
   searchText!:string;
 
   search(){
-    this.companyArray= this.companies.filter(value => value.name.match(this.searchText)|| value.name.match(this.searchText))
+    this.companyArray= this.companies.filter(value => value.name.match(this.searchText)|| value.owner.name.match(this.searchText))
     this.companies=this.companyArray;
   }
 

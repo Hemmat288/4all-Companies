@@ -10,6 +10,7 @@ import { CompanyDetailsComponent } from './pages/company-details/company-details
 import { CompaniesListComponent } from './content/companies-list/companies-list.component';
 import { ContactUsComponent } from './content/contact-us/contact-us.component';
 import { WelcomeHeaderComponent } from './content/welcome-header/welcome-header.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -20,11 +21,13 @@ import { WelcomeHeaderComponent } from './content/welcome-header/welcome-header.
     CompanyDetailsComponent,
     CompaniesListComponent,
     ContactUsComponent,
-    WelcomeHeaderComponent
+    WelcomeHeaderComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
