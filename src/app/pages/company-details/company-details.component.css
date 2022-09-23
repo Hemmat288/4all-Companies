@@ -3,6 +3,9 @@ body {
 background-color: #eee;
 font-family: "Poppins", sans-serif
 }
+.row{
+  margin-top: 10%;
+}
 .card {
 background-color: #fff;
 padding: 14px;

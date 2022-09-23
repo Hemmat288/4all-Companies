@@ -11,7 +11,7 @@ import { CompaniesListComponent } from './content/companies-list/companies-list.
 import { ContactUsComponent } from './content/contact-us/contact-us.component';
 import { WelcomeHeaderComponent } from './content/welcome-header/welcome-header.component';
 import { FormsModule } from '@angular/forms';
-
+import { OurTeamComponent } from './content/our-team/our-team.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,12 +22,14 @@ import { FormsModule } from '@angular/forms';
     CompaniesListComponent,
     ContactUsComponent,
     WelcomeHeaderComponent,
+    OurTeamComponent,
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
