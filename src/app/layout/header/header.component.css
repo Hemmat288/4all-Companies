@@ -28,7 +28,12 @@ z-index: 12;
 span{
   color:#ef07a8 ;
 }
-.nav-link:hover {
+.nav-link:hover  {
 	color: #ef07a8 !important;
 
+}
+.active {
+  color: #ef07a8 !important;
+	/* border-bottom: 3px solid #ef07a8;
+	padding-bottom: 3px; */
 }

@@ -11,11 +11,13 @@ import { CompanyDetailsComponent } from './pages/company-details/company-details
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
+  {path:'home',component:HomeComponent},
   {path:'contact',component:ContactUsComponent },
   {path:'details',component:CompanyDetailsComponent},
   {path:'companies_list',component:CompaniesListComponent},
   {path:'ourTeam',component:OurTeamComponent},
   {path:'details/:id',component:CompanyDetailsComponent},
+  {path:'companies_list/details/:id',component:CompanyDetailsComponent},
 
 ];
 

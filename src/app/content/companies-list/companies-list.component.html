@@ -2,30 +2,32 @@
 <div class="container"style="min-height: 100vh; position: relative; ">
   <div class="row">
     <h1 class="companies_header">Companies</h1>
-    <div class="mynewform">
+     <div class="mynewform">
       <input id="mybtn" #seacrhInput class="form-control me-2" [(ngModel)]="searchText" type="search" placeholder="Search by Name of company or description or owner" #tagInput (keyup)="(search())"  (keydown)="searchas()" >
       <button class="btn bb" id="search" (click)="search()" >Search</button>
   </div>
 
 
-    <div  class="col-md-3 col-sm-6" *ngFor="let company of companies | paginate:{itemsPerPage:8,currentPage:page,totalItems:totalLength}">
-      <div class="card" >
-         <div class="card-body">
-          <img src="{{ company.img1 }} " class="card-img-top" >
-        <h4>{{ company.name }}</h4>
-        <p>{{ company.description }}</p>
-        <h5>{{ company.review }}</h5>
-          <a class="readmore" [routerLink]="['details',company.id]">Read More </a>
-        </div>
+  <div  class="col-md-3 col-sm-6" *ngFor="let company of companies | paginate:{itemsPerPage:8,currentPage:page,totalItems:totalLength}">
+    <div class="card" >
+       <div class="card-body">
+        <img src="{{ company.img1 }} " class="card-img-top" >
+      <h4>{{ company.name }}</h4>
+      <p>{{ company.description }}</p>
+      <h5>{{ company.review }}</h5>
+        <a class="readmore" [routerLink]="['details',company.id]">Read More </a>
       </div>
     </div>
+  </div>
 
-<!-- -----------------pagination---------- -->
-<div class="paging">
+<!------------------pagination---------- -->
+  <div class="paging">
   <pagination-controls class="page-item" (pageChange)="page = $event" ></pagination-controls>
   </div>
 
+
     </div>
   </div>
+
 
 
