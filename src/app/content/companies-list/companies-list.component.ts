@@ -10,7 +10,8 @@ import { CompanyService } from 'src/app/_service/company.service';
 export class CompaniesListComponent implements OnInit {
   companies;
   companyArray!:Company[];
-
+  page:number=1;
+  totalLength:any;
   searchText!:string;
 
   search(){

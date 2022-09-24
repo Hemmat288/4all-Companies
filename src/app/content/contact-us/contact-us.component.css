@@ -4,7 +4,7 @@
 .row{
   margin-top: 15%;
 }
-.contact{
+.contact_title{
   text-align: center;
   color: #8d3d7b;
   font-size: 45px;
@@ -14,10 +14,11 @@
     padding: 50px;
     text-align: center;
     border-radius: 10px;
-    margin: 30px;
+    margin: 5%;
     align-items: center;
-    box-shadow: 0px 0px 18px 0 #0000002c;
+    box-shadow: 0px 0px 18px 0 #8d3d7b;
     transition: 0.3s ease box-shadow;
+    background: rgba(197, 20, 67, 0.2);
 }
 
 .card:hover{
@@ -35,7 +36,7 @@
  color: #8d3d7b;
  }
  .card h2{
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-weight: 500px;
  line-height: 2rem;
  color: #8d3d7b;

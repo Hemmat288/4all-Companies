@@ -17,11 +17,9 @@ z-index: 12;
   padding-left: 2%;
   font-size: xx-large;
 }
-.nav-item{
-  font-size: larger;
-}
+
 .nav-item a{
-  font-size: larger;
+  font-size:larger;
 }
 .navbar-collapse{
   margin-left: 40%;
@@ -30,10 +28,7 @@ z-index: 12;
 span{
   color:#ef07a8 ;
 }
-.nav-item:hover {
+.nav-link:hover {
 	color: #ef07a8 !important;
-	border-bottom: 3px solid #ef07a8;
-
-
 
 }

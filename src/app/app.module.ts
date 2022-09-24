@@ -12,6 +12,8 @@ import { ContactUsComponent } from './content/contact-us/contact-us.component';
 import { WelcomeHeaderComponent } from './content/welcome-header/welcome-header.component';
 import { FormsModule } from '@angular/forms';
 import { OurTeamComponent } from './content/our-team/our-team.component';
+import { NgxPaginationModule } from 'ngx-pagination';
+// import { FontAwesomeModule } from '@fortawesome/angular-fontawesome'
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,7 +31,8 @@ import { OurTeamComponent } from './content/our-team/our-team.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-
+    // FontAwesomeModule,
+    NgxPaginationModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
