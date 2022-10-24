@@ -18,6 +18,7 @@ const routes: Routes = [
   {path:'ourTeam',component:OurTeamComponent},
   {path:'details/:id',component:CompanyDetailsComponent},
   {path:'companies_list/details/:id',component:CompanyDetailsComponent},
+  {path:'home/details/:id',component:CompanyDetailsComponent},
 
 ];
 
